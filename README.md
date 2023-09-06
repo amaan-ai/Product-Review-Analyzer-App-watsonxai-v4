@@ -1,6 +1,6 @@
 # Product-Review-Analyzer-App-watsonxai-v4
 
-Try [Review Analyzer App](https://reviews-watson-v3.streamlit.app/)
+Try [Review Analyzer App](https://review-v4.streamlit.app/)
 
 ## Introduction
 The Product Review Analyzer extracts insights from product reviews, helping businesses identify key points, measure sentiment, and understand customer feedback.
