@@ -9,7 +9,7 @@ import prompt_generation
 
 model_id    = ModelTypes.FLAN_UL2
 #gen_parms   = {GenParams.MAX_NEW_TOKENS: 200, GenParams.TOP_P: 0.3, GenParams.TOP_K: 3}
-gen_parms   = {GenParams.MAX_NEW_TOKENS: 200, GenParams.TOP_P: 0.3, GenParams.TOP_K: 3, GenParams.REPETITION_PENALTY:1.3,
+gen_parms   = {GenParams.MAX_NEW_TOKENS: 800, GenParams.TOP_P: 0.3, GenParams.TOP_K: 3, GenParams.REPETITION_PENALTY:1.3,
                GenParams.DECODING_METHOD: 'greedy', GenParams.TEMPERATURE: 0.2, GenParams.RANDOM_SEED: 33}
 
 space_id    = None
