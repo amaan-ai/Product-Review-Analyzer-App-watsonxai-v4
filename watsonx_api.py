@@ -22,7 +22,7 @@ gen_parms_sentiment_keywords   = {GenParams.MAX_NEW_TOKENS: 200, GenParams.TOP_P
                GenParams.DECODING_METHOD: 'greedy', GenParams.TEMPERATURE: 0.2, GenParams.RANDOM_SEED: 33}
 
 # Modifying 'GenParams' to get dynamic summary
-gen_parms_summary   = {GenParams.MAX_NEW_TOKENS: 200, GenParams.TOP_P: 0.5, GenParams.TOP_K: 50, GenParams.REPETITION_PENALTY:1.3,
+gen_parms_summary   = {GenParams.MAX_NEW_TOKENS: 800, GenParams.TOP_P: 0.5, GenParams.TOP_K: 50, GenParams.REPETITION_PENALTY:1.3,
                GenParams.DECODING_METHOD: 'sample', GenParams.TEMPERATURE: 1.8}
 
 class checkReview:
